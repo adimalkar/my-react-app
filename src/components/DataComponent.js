@@ -7,7 +7,7 @@ function DataComponent() {
     useEffect(() => { 
         // Make request to your Python backend [cite: 476]
         // IMPORTANT: Change this URL to your deployed API's URL
-        fetch('https://api.yourdomain.com/api/data') 
+        fetch('https://api.credisync.online/api/data')
             .then(res => res.json()) 
             .then(data => { 
                 setData(data); 
